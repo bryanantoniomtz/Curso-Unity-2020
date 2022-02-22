@@ -1,0 +1,140 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.6f1 (338bb68529b2) revision 3378102'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1526; Version 2009; 64bit' Language: 'es' Physical Memory: 3999 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+65001
+Successfully changed project path to: C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado
+C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 137.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.6f1 (338bb68529b2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   
+    VRAM:     1999 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002051 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 34.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.151 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.024595 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 20.513 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 3.07 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.2 MB.
+System memory in use after: 92.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2108.
+Total: 3.212900 ms (FindLiveObjects: 0.332900 ms CreateObjectMapping: 0.138600 ms MarkObjects: 2.510900 ms  DeleteObjects: 0.228100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Tree.prefab
+  artifactKey: Guid(f3514508454b07b45a127d3819f673ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tree.prefab using Guid(f3514508454b07b45a127d3819f673ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8254e8afca51ad9db54cb6ed74a22b90') in 2.317753 seconds
+  Import took 2.426315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026980 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(4db2dbdf386dacb42afc2c9f46ef12fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(4db2dbdf386dacb42afc2c9f46ef12fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b837954b1855359a326883e5384c39c2') in 3.154003 seconds
+  Import took 3.280152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1210.218559 seconds.
+  path: Assets/Materia/mETALIC.mat
+  artifactKey: Guid(29d855f8200af3d478406767627e3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materia/mETALIC.mat using Guid(29d855f8200af3d478406767627e3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '079d80009a8a2e54ff5b44c63c306089') in 3.724607 seconds
+  Import took 8.883739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.635466 seconds.
+  path: Assets/Materia/mETALIC.mat
+  artifactKey: Guid(29d855f8200af3d478406767627e3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materia/mETALIC.mat using Guid(29d855f8200af3d478406767627e3b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d5f4db57389ed196c33b306cde7a61') in 0.440494 seconds
+  Import took 0.682923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1975.845968 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8f5e0a477d807dd4484212dd6c362058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8f5e0a477d807dd4484212dd6c362058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a84693ea9fab4efc1cfafa3be3d9ae') in 0.678463 seconds
+  Import took 0.816368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.350836 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(8f5e0a477d807dd4484212dd6c362058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(8f5e0a477d807dd4484212dd6c362058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a84693ea9fab4efc1cfafa3be3d9ae') in 0.005688 seconds
+  Import took 0.115841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.991325 seconds.
+  path: Assets/Scenes/Reflection.unity
+  artifactKey: Guid(4d1abde7cbaa2364ea9138923cff8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Reflection.unity using Guid(4d1abde7cbaa2364ea9138923cff8f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960609a1c884c0dde8f6a802f2b68eee') in 0.366373 seconds
+  Import took 0.460029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.847987 seconds.
+  path: Assets/Scenes/OutLands.unity
+  artifactKey: Guid(6bb2dfd7cb86b034b8281a7723d8b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/OutLands.unity using Guid(6bb2dfd7cb86b034b8281a7723d8b5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e0506fdb62765d4c458eacb32b82c6') in 0.214771 seconds
+  Import took 0.355011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.400551 seconds.
+  path: Assets/Course Library/Materials/Reflect.mat
+  artifactKey: Guid(b275ffe948fd2384cbf6d911783901f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Materials/Reflect.mat using Guid(b275ffe948fd2384cbf6d911783901f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2989852268ddde7be9c9a4976fd170') in 0.374491 seconds
+  Import took 0.416633 seconds .
+

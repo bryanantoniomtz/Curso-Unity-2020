@@ -278,8 +278,53 @@
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
+ <Reference Include="YamlDotNet">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/YamlDotNet.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.State.Editor">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.State.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.Core.Editor">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Ludiq.Graphs.Editor">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ludiq.Graphs.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.Core.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.Core.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Antlr3.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Ludiq.Graphs.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ludiq.Graphs.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Ludiq.Platforms">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ludiq.Platforms.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ionic.Zip.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.Flow.Editor">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.Flow.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Ludiq.Core.Editor">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ludiq.Core.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.Flow.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.Flow.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="MiscUtil">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/MiscUtil.dll</HintPath>
+ </Reference>
+ <Reference Include="Ludiq.Core.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Ludiq.Core.Runtime.dll</HintPath>
+ </Reference>
  <Reference Include="ICSharpCode.NRefactory">
  <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Library/PackageCache/com.unity.render-pipelines.core@10.4.0/Editor/ShaderGenerator/ICSharpCode.NRefactory.dll</HintPath>
+ </Reference>
+ <Reference Include="Bolt.State.Runtime">
+ <HintPath>C:/Users/Bryan Martinez/Desktop/GitHub/Curso-Unity-2020/002_Prototipado/Assets/Ludiq/Assemblies/Bolt.State.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.3.6f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

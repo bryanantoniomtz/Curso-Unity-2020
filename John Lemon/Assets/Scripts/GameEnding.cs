@@ -14,6 +14,8 @@ private bool isPlayerCaught;
 public CanvasGroup exitBackgroundImageCanvasGroup;
 public CanvasGroup caughtBackgroundImageCanvasGroup;
 private float timer;
+public AudioSource exitAudio, caughtAudio;
+private bool hasAudioPlay;
 
   private void OnTriggerEnter(Collider other){
       if(other.gameObject==player){
@@ -23,10 +25,10 @@ private float timer;
   
   private void Update(){
     if(isPlayerAtExit){
-       EndLevel(exitBackgroundImageCanvasGroup,false);
+       EndLevel(exitBackgroundImageCanvasGroup,false,exitAudio);
     }else if(isPlayerCaught)
     {
-       EndLevel(caughtBackgroundImageCanvasGroup,true); 
+       EndLevel(caughtBackgroundImageCanvasGroup,true,caughtAudio); 
     }
   }
   ///<sumary>
@@ -34,7 +36,13 @@ private float timer;
  ///</sumary>
  ///<param name="imageCanvasGroup">Imagen de fin de partida correspondiente</param>
 
-  void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart){
+  void EndLevel(CanvasGroup imageCanvasGroup, bool doRestart, AudioSource audioSource){
+    
+     if(!hasAudioPlay){
+       audioSource.Play();
+       hasAudioPlay=true;
+     }
+     
 
       timer+= Time.deltaTime; 
       imageCanvasGroup.alpha=timer/fadeDuration;

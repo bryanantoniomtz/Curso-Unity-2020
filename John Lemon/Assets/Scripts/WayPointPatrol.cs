@@ -23,9 +23,9 @@ public class WayPointPatrol : MonoBehaviour
     void Update()
     {
      
-         Debug.Log(currentWaypointIndex);
+        /* Debug.Log(currentWaypointIndex);
          Debug.Log(navMeshAgent.remainingDistance);
-         Debug.Log(navMeshAgent.stoppingDistance);
+         Debug.Log(navMeshAgent.stoppingDistance);*/
       //  if(navMeshAgent.remainingDistance>0){  
          
             if(navMeshAgent.remainingDistance < navMeshAgent.stoppingDistance)

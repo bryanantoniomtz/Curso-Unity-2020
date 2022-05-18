@@ -362,7 +362,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8f87494fdf66565419fa381814c5129b, type: 2}
+  - {fileID: 2100000, guid: 74b43dcb98819354da09f8256577dd89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -530,7 +530,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35be1b7d08ccc06408d08d2e10a0bf86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waypoints: []
+  waypoints:
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!82 &7163034677502282351
 AudioSource:
   m_ObjectHideFlags: 0
